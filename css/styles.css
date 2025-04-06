@@ -1,0 +1,109 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.redes-sociais {
+	padding: 10px;
+	text-align: right;
+}
+
+.redes-sociais a {
+    margin-left: 10px; /* Adiciona um espaçamento entre os ícones */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: white; /* Cor dos ícones */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.redes-sociais a {
+    margin-left: 10px; /* Adiciona um espaçamento entre os ícones */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: gray; /* Cor dos ícones */
+    text-decoration: none;
+}
+
+.redes-sociais a:visited {
+    color: #555; /* Cor dos links já visitados */
+}
+
+.redes-sociais a:hover {
+    color: #ff6600; /* Cor quando passa o mouse */
+}
+
+.redes-sociais a:active {
+    color: #ff0000; /* Cor quando o link é clicado */
+}
+
+.foto-e-nome {
+	padding: 20px;
+	text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.menu ul {
+	list-style: none; /* Remove os marcadores da lista */
+	padding: 0;
+	margin: 0;
+	display: flex; /* Usa flexbox para organizar os itens em linha */
+	justify-content: center; /* Centraliza os itens */
+}
+
+.menu li {
+	margin: 0 15px; /* Adiciona espaçamento entre os itens */
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.conteudo {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Espaço entre os elementos */
+}
+
+.texto-principal {
+    width: 70%; /* Define a largura do texto principal */
+    padding: 20px;
+    background-color: orange;
+}
+
+.menu-lateral {
+    width: 20%; /* Define a largura do menu lateral */
+    padding: 20px;
+    background-color: white;
+}
+
+
+.rodape {
+    background-color: #222; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Espaçamento interno */
+    font-size: 16px;
+    position: relative; /* Garante que fique no fluxo normal da página */
+    width: 100%; /* Ocupa toda a largura */
+}
+
+.rodape a {
+    color: gray; /* Cor padrão (cinza claro) */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Suaviza a mudança de cor */
+}
+
+.rodape a:visited {
+    color: yellow; /* Cor quando o link já foi clicado */
+}
+
+.rodape a:hover {
+    color: red; /* Cor ao passar o mouse */
+}
+
+.rodape a:active {
+    color: darkgrey; /* Cor do link ativo (cinza escuro) */
+}
